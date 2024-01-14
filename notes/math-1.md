@@ -18,9 +18,15 @@ $\begin{bmatrix} 120 \\
 1 \\
 150 \end{bmatrix}$
 
+- Vectors can be notated with a bar: $\bar{a}$
 - Addition and subtraction on vectors can be done on each component, pretty straightforward. Just add straight across the vectors.
 - Multiplication of a scalar on a vector produces expected results, a negative coefficient will flip the vector's direction.
 - Use Pythagorean theorum to calculate a vectors size.
 
 - _The length of a vector is also known as its *size*_
 - While easily applied to spatial directions (Like x (or a for right triangle axis), y (or b) 2D coordinate space), this rule that for the **vector-size** $r$ : $\begin {bmatrix}r\end{bmatrix} = \begin{bmatrix} a \cr b\end{bmatrix}$ _or_ $\begin{bmatrix}r\end{bmatrix} = \sqrt{a^2 + b^2}$
+
+- A _normalized_ vector is notated with a hat. It has a length of 1.
+- The _dot product_ of two vectors results in a scalar.. So it's a.k.a the 'scalar product'. It can be written $\bar{a} \bullet \bar{b} $
+- For 2-dimensional vector space the _dot product_ would be expressed: $\bar{a} \bullet \bar{b} = a_xb_x + a_yb_y$
+- The _dot product_ of $n$ dimensions can be expressed: $\bar{a} \bullet \bar{b} = a_1b_1 + a_2b_2 + \dots + a_nb_n$
