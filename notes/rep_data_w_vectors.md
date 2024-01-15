@@ -26,7 +26,18 @@ $\begin{bmatrix} 120 \\
 - _The length of a vector is also known as its *size*_
 - While easily applied to spatial directions (Like x (or a for right triangle axis), y (or b) 2D coordinate space), this rule that for the **vector-size** $r$ : $\begin {bmatrix}r\end{bmatrix} = \begin{bmatrix} a \cr b\end{bmatrix}$ _or_ $\begin{bmatrix}r\end{bmatrix} = \sqrt{a^2 + b^2}$
 
+- Excellent, concise review video can be [found here.](https://youtu.be/Ej3ZVxljJfo?si=T5dsVsf9ZgtvmeNQ)
+
 - A _normalized_ vector is notated with a hat. It has a length of 1.
 - The _dot product_ of two vectors results in a scalar.. So it's a.k.a the 'scalar product'. It can be written $\bar{a} \bullet \bar{b} $
 - For 2-dimensional vector space the _dot product_ would be expressed: $\bar{a} \bullet \bar{b} = a_xb_x + a_yb_y$
 - The _dot product_ of $n$ dimensions can be expressed: $\bar{a} \bullet \bar{b} = a_1b_1 + a_2b_2 + \dots + a_nb_n$
+
+##### Finding Euclidean Distance Between Feature Vectors
+
+- Credit to the @machinelearninglessons9276 channel on [youtube found here,](https://www.youtube.com/@machinelearninglessons9276) for the following images (and great videos).
+- In a 3-Dimensional vector space, the operation can be visualized with the following image.
+  ![vector-distance-1](./vector-distance-1.png)
+- And simplified further:
+  ![vector-distance-2](./vector-distance-2.png)
+- Eventually we solve the distance between the above as $\sqrt{.81}$ or $0.9$
