@@ -1,0 +1,21 @@
+### Nearest Neighbor (and additional K-Nearest..) Algorithm
+
+- Very simple concept. For each test example/sample/input $\hat{x}$, the model should simply measure the distance to the _most similar_ input/vector that's already been mapped to a label $\hat{y}$. In practice in machine learning, the _closest_ vector will be analyzed, and it's mapped $\hat{y}$ will be used.
+- At training time, store the entire training set.
+- At test time, evaluate the test case as stated in first point above.
+- Nearest Neighbor is prone to _overfitting_: over-trained to the point that _noises_ and _artifacts_ are included rather than considering only the useful information/data.
+- Consider the following image [(again from this great youtube channel.)](https://www.youtube.com/@machinelearninglessons9276). We see a random $+$ label has found it's way into the model. If our test example/sample were to be where the question mark $?$ were, the base nearest-neighbor approach would pick that closest $+$ and would predict a $+$, when that is highly unlikely given the surrounding $-$ labels, and their distribution.
+
+  ![nearest-neighbor-overfit](k-nearest-1.png)
+
+- What we actually want our model to be able to do is have the _nearest space_ analyzed to better fit the whole context and not just reflexively return what the closest example returns.
+
+###### K-Nearest Neighbor:
+
+- Instead let's train our model on the _3_ nearest neighbors, as shown in the following image. Then we will correctly predict a $-$ since 2 of the 3 nearest are $-$ labels.
+
+![k-nearest-neighbor](./k-nearest-2.png)
+
+- Detailed compute instructions below:
+
+![k-nearest-implementation](./k-nearest-neighbor-implementation.png)
