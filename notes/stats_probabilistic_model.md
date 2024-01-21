@@ -2,8 +2,10 @@
 
 #### Distribution Concepts
 
+- [Definition:](https://en.wikipedia.org/wiki/Probability_distribution#Absolutely_continuous_probability_distribution) In probability theory and statistics, a probability distribution is the mathematical function that gives the probabilities of occurrence of different possible outcomes for an experiment. It is a mathematical description of a random phenomenon in terms of its sample space and the probabilities of events (subsets of the sample space).
 - _"The *shape* of data"_
-- Of course _not *all* data can be considered_ in evaluating statistics on any one subject. So instead we'll look at _samples_ of data, and in doing so will look for _shapes_ in the data.
+- Of course _not *all* data can be considered_ in evaluating statistics on any one subject. So instead we'll look at _samples_ of data, which can be thought of as _'shadows'_ of the complete set of all data, and in doing so we look for _shapes_ in the sample data that allow extrapolation to the whole.
+- [_Standard Deviation_ $\sigma$:](https://en.wikipedia.org/wiki/Standard_deviation) The average distance between any point and the _mean_ of a probability distribution (dataset). Can also be stated as _The measure of the amount of *variation* of a random variable expected about it's mean_. A low $\sigma$ indicates that the values tend to be close to the mean (a.k.a. 'expected value') of the set, while a high $\sigma$ indicates the values are spread out over a wider range.
 
 #### Probabilistic Model
 
