@@ -1,6 +1,6 @@
-# ML Notes - 1
+## ML Notes - Definitions
 
-## Types of Algorithm Output
+### Types of Algorithm Output
 
 - _Regression_: Algorithm attempts to map set of input-feature(s) _x_ to a **continuous value** output _y_ . In contrast to a Classification algorithm which attempts to predict discreet class labels (e.g. true or false). Regression algorithms can of course also predict discreet values in the form of integers (for instance). Ex: _NavLab_ autonomous vehicle from Carnegie-Mellon uses regression to map the sensor input of the road to the continuous-output _y_ that the human labels through the training phase. (in other words there is no set of discreet values for a steering wheel to be put in..). Another classic example would be mapping things like house sqare-footage to sale-value.
 
@@ -8,11 +8,11 @@
 
 ## Supervised Learning
 
-#### Description
+### Description
 
 - "Supervised learning (SL) is a paradigm in machine learning where input objects (for example, a vector of predictor variables) and a desired output value (also known as human-labeled supervisory signal) train a model. The training data is processed, building a function that maps new data on expected output values."
 
-#### Definitions
+### Definitions
 
 - _Features_: Features are _'x1,x2,...' values_ . The dimensions of input data for _supervised_ learning.
 
@@ -20,13 +20,21 @@
 
 ## Unsupervised Learning
 
-#### Description
+### Description
 
 - Basically your leaning algorithm will attempt to make sense of inputs _x_ on it's own. Having no _y_ _labeling_ from a human.
 
-#### Definitions
+## Definitions (Continued)
 
 - _Clustering_: This is the algorithm used by Google News for instance to crawl news sites, and group together articles based on how close they cluster in subject matter.
+
+### Bias and Variance
+
+- [_Inductive Bias (Bias):_](https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/#:~:text=Bias%20refers%20to,model%2C%20indicating%20underfitting.) _When the features picked are low-relevancy or even no-relevancy, you are giving them the same amount of weight as those that are impactful._
+- [_Varying the feature scale (Variance)._](https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/#:~:text=Variance%2C%20on%20the,data%2C%20indicating%20overfitting.) : _High *variance* occurs when a model learns the training data's *noise* and *random fluctuations* rather than the underlying pattern. As a result the model will perform well on the training data, but poorly on the testing data._
+- Consider a prediction between being a ski or a snowboard. We have a data-training set of lengths in _cm_ and widths in _cm_ . The problem that we want to scale for is that the widths of the snowboard are far smaller scaled than the length of the skis.. think 170cm for skis but widths of snowboards are maybe 40cm .. meaning the difference between a snowboard at 42cm and one at 40cm is going to be represented only in it's comparison with the ski lengths.. which might be 170cm, another might be 140cm.. Which means the distance from sample ski to sample ski is much larger, and will be learned poorly.
+
+![bias-and-variance-1](./Bias-and-Variance-in-Machine-Learning.webp)
 
 ---
 
