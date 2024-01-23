@@ -9,6 +9,7 @@
 - SD Formula: $\sigma = \sqrt{\dfrac{\sum(x_i - \mu)^2}{N}}$
 - Where $\sigma$ is the standard deviation, $N$ is the size of the population, $x_i$ is each value from the population, and $\mu$ is the population mean
 - [Empirical Rule (aka 68-95-99.7 Rule or 3-sigma Rule)](https://en.wikipedia.org/wiki/68%E2%80%9395%E2%80%9399.7_rule). Basically in a _normal distribution_, 68% of the points/samples will fall within $1\sigma$ of the population mean. 95% within $2\sigma$ and 99.7% within $3\sigma$
+- [Z-Score:](https://en.wikipedia.org/wiki/Standard_score) How many standard deviations away your datapoint is from the population mean
 
 #### Probabilistic Model
 
