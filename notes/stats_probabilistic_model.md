@@ -18,3 +18,7 @@
 - This is often called the _data generating distribution_
 
 - Unreasonable pairs occur rarely while more reasonable input-output pairs occur more often.
+
+#### Log-Normal Distribution
+
+- Tends to be more apparent than normal distribution as it's common to have a relationship like household income (x), number of households (y) where you have a small number of households that make a lot of money.. and a lot of households that make a little bit of money.
