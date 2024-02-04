@@ -6,7 +6,7 @@
 
 > As such, linear regression was developed in the field of statistics and is studied as a model for understanding the relationship between input and output numerical variables, but has been borrowed by machine learning. It is both a statistical algorithm and a machine learning algorithm.
 
-- **When it's used:** Whenever _continuous values_ need to be predicted. Temperature, speed, number of things in a thing, etc.
+- **When to use:** Whenever _continuous values_ need to be predicted. Temperature, speed, number of things in a thing, etc.
 
 #### Ordinary Least Squares method
 
