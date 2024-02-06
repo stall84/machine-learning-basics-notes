@@ -13,3 +13,13 @@
 - Following graphic illustrates the potential consequence of 'blindly' applying a regression algorithm to data that isn't fit for such algorithm. This type of 'fallacy' is known as [_Anscombe's quartet_](https://en.wikipedia.org/wiki/Anscombe%27s_quartet). See also [matplotlib's description](https://matplotlib.org/stable/gallery/specialty_plots/anscombe.html)
 
 ![assumptions-linear-reg-1](./assumptions-linear-reg-1.png)
+
+### [Dummy Variables](<https://en.wikipedia.org/wiki/Dummy_variable_(statistics)>) (One-Hot-Encoding)
+
+- When we have categorical data in our features, we have to account for them in the regression formula. Dummy variables create column values with either a 1 _ON_ or 0 _OFF_ .
+- However we don't want to include every converted-category column included in the regression. For instance if we have an original column 'States' that we _one-hot-encode_ to 2 columns (we only have 2 states in this example), the following graphic shows why we wouldn't include the California column (it's represented by the New York column being either ON or OFF).
+- To remedy the trap-problem, you simply _remove one of the category columns_.. So in the case of our 2 state categories, you'd omit the red-underlined expression in image below. If we had 10 states in our data, we'd omit 1 and be left with 9 expressions to our multiple linear regression.
+
+![dummy-variable-trap](./IMG_6878.png)
+
+### Statistical Significance & P-Value
