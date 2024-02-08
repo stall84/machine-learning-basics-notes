@@ -24,5 +24,9 @@
 
 ### Statistical Significance & [P-Value](https://en.wikipedia.org/wiki/P-value)
 
+- To test your hypothesis, the easiest example would be in the coin-flip analogy, one hypothesis that assumes the coins have 2 sides, while the [_null hypothesis_](https://en.wikipedia.org/wiki/Null_hypothesis) would assume that both sides are tails (or heads), so in this null world, getting a dozen tails in a row would be completely valid.
 - Defined as the probability of obtaining test results at least as extreme as the realized (real) observation under the assumption that the [_null hypothesis_](https://en.wikipedia.org/wiki/Null_hypothesis) is correct.
 - The coinflip analogy would have the null hypothesis being something like "Yes, I do expect to get tails a dozen times in a row (low probability with a _fair_ coin).
+- Where you want to set your statistical significance level is up to you to decide, but something like 5% isn't uncommon. But it could be higher or lower depending on what type of results you're seeking.
+
+![stat-sig-1](./IMG_6905.png)
