@@ -22,4 +22,7 @@
 
 ![dummy-variable-trap](./IMG_6878.png)
 
-### Statistical Significance & P-Value
+### Statistical Significance & [P-Value](https://en.wikipedia.org/wiki/P-value)
+
+- Defined as the probability of obtaining test results at least as extreme as the realized (real) observation under the assumption that the [_null hypothesis_](https://en.wikipedia.org/wiki/Null_hypothesis) is correct.
+- The coinflip analogy would have the null hypothesis being something like "Yes, I do expect to get tails a dozen times in a row (low probability with a _fair_ coin).
