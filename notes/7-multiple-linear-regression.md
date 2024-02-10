@@ -3,14 +3,17 @@
 ### Basics and Example Use Case
 
 - When to use: Again whenver we need a continuous value to be predicted, we want to use a regression algorithm. With _multiple linear regression_ we can evaluate multiple independent variables, and maybe more importantly we can look at predictions from the model based on any single feature, holding all the others constant. In the image below we could make predictions for the Marketing Spend (for instance) feature that will produce the maximum profit (dependent variable), and then do the same for a different feature. Or, for a much more realistic evaluation, we could determine whether R&D spending or Marketing spending is a better predictor of total profit (max).
+- Note 1: When using a multiple linear regression, there is _no need to scale features_. This is because in a multiple linear regression, each feature will have it's own coefficient, meaning that the coefficient will be tuned to compensate for any dominance in any one feature.
 
 ![multiple-linear-reg-1](./multiple-linear-reg-1.png)
 
-### Assumptions of (Linear) Regression (Important)
+### Assumptions of Simple (Linear) Regression (Important)
 
-- Implementing a regression algorithm, whether simple or multiple or other, **requires** your data-set to be **fit** for using linear regression, or that your data-set exhibits linear relationships (between independent, dependent variables). Otherwise, you'll be literally trying to fit _'a square peg in a round hole'_.
+- Implementing a simple-regression algorithm **requires** your data-set to be **fit** for using linear regression, or that your data-set exhibits linear relationships (between independent, dependent variables). Otherwise, you'll be literally trying to fit _'a square peg in a round hole'_.
 
-- Following graphic illustrates the potential consequence of 'blindly' applying a regression algorithm to data that isn't fit for such algorithm. This type of 'fallacy' is known as [_Anscombe's quartet_](https://en.wikipedia.org/wiki/Anscombe%27s_quartet). See also [matplotlib's description](https://matplotlib.org/stable/gallery/specialty_plots/anscombe.html)
+- Interestingly, and _to note:_ _multiple linear regressions_ **do not** necessarily require your data to exhibit linear relationships (or any of the other simple-linear assumptions). With a _multiple linear regression_, go ahead and throw your data at it (so to speak), if the predictions perform poorly, you'll know you need to find a different ML model. **(Essentially this is a time-cost rule. It would end up being a waste of time to evaluate all of the assumptions on a multiple linear regeression, in the end you'll see the accuracy compared to other models, so just forego it)**
+
+- Following graphic illustrates the potential consequence of 'blindly' applying a simple-regression algorithm to data that isn't fit for such algorithm. This type of 'fallacy' is known as [_Anscombe's quartet_](https://en.wikipedia.org/wiki/Anscombe%27s_quartet). See also [matplotlib's description](https://matplotlib.org/stable/gallery/specialty_plots/anscombe.html)
 
 ![assumptions-linear-reg-1](./assumptions-linear-reg-1.png)
 
