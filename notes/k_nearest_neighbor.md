@@ -7,7 +7,7 @@
 - Nearest Neighbor is prone to _overfitting_: over-trained to the point that _noises_ and _artifacts_ are included rather than considering only the useful information/data.
 - Consider the following image [(again from this great youtube channel.)](https://www.youtube.com/@machinelearninglessons9276). We see a random $+$ label has found it's way into the model. If our test example/sample were to be where the question mark $?$ were, the base nearest-neighbor approach would pick that closest $+$ and would predict a $+$, when that is highly unlikely given the surrounding $-$ labels, and their distribution.
 
-  ![nearest-neighbor-overfit](k-nearest-1.png)
+  ![nearest-neighbor-overfit](./images/k-nearest-1.png)
 
 - What we actually want our model to be able to do is have the _nearest space_ analyzed to better fit the whole context and not just reflexively return what the closest example returns.
 
@@ -15,11 +15,11 @@
 
 - Instead let's train our model on the _3_ nearest neighbors, as shown in the following image. Then we will correctly predict a $-$ since 2 of the 3 nearest are $-$ labels.
 
-![k-nearest-neighbor](./k-nearest-2.png)
+![k-nearest-neighbor](./images/k-nearest-2.png)
 
 - Detailed compute instructions below:
 
-![k-nearest-implementation](./k-nearest-neighbor-implementation.png)
+![k-nearest-implementation](./images/k-nearest-neighbor-implementation.png)
 
 1 Calculate the distance between the test sample/example and _every other_ training sample/example, and store them.
 2 Sort the list of distances.

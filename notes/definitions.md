@@ -34,7 +34,7 @@
 - [_Varying the feature scale (Variance)._](https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/#:~:text=Variance%2C%20on%20the,data%2C%20indicating%20overfitting.) : _High *variance* occurs when a model learns the training data's *noise* and *random fluctuations* rather than the underlying pattern. As a result the model will perform well on the training data, but poorly on the testing data._
 - Consider a prediction between being a ski or a snowboard. We have a data-training set of lengths in _cm_ and widths in _cm_ . The problem that we want to scale for is that the widths of the snowboard are far smaller scaled than the length of the skis.. think 170cm for skis but widths of snowboards are maybe 40cm .. meaning the difference between a snowboard at 42cm and one at 40cm is going to be represented only in it's comparison with the ski lengths.. which might be 170cm, another might be 140cm.. Which means the distance from sample ski to sample ski is much larger, and will be learned poorly.
 
-![bias-and-variance-1](./Bias-and-Variance-in-Machine-Learning.webp)
+![bias-and-variance-1](./images/Bias-and-Variance-in-Machine-Learning.webp)
 
 ---
 
@@ -90,7 +90,7 @@ Where:
 - **Gradient Descent** analogy to how it operates is whichever initial starting point you provide (all 0's in our case), then the algo _'looks'_ in all 360 degrees around it, and determines which direction to _'step'_ to go _downhill_ **as fast as possible**, the algorithm will then take that _'step'_ downhill. Repeat.
 - See the illustration below
 
-![grad_descent_1](./grad_desc_1.png)
+![grad_descent_1](./images/grad_desc_1.png)
 
 - Problems can arrise applying gradient descent to linear regression include (because of the starting point you may have picked) you will find different local minima (look at image and notice both depressions.. either could have been picked to 'step' into.. but theres only one that is actually lowest).
 - Gradient Descent can be generalized as follows where the $:=$ is an **assignment** operation (not equality expression). We'll use lowercase $j$ to represent the nth parameter being worked on, We'll use $\alpha$ to denote the _leaning rate_ which is just how _fast_ or _short_ we want each step to be (allowing tuning of acceptable accuracy)

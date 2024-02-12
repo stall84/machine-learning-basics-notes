@@ -11,7 +11,7 @@
 #### Ordinary Least Squares method
 
 - We might come up with several lines that fit our data points, but when we want to quickly find the _closest-to-best_ line, we can use the ordinary least squares method.
-  ![ordinary-least-squares-1](./ord-least-sq-1.png)
+  ![ordinary-least-squares-1](./images/ord-least-sq-1.png)
 
 - In below definition we square the some of _residuals_ (differences / or could be thought of as distances between $y_i$ and $\hat y_i$)
-  ![ordinary-least-squares-2](./ord-least-sq-2.png)
+  ![ordinary-least-squares-2](./images/ord-least-sq-2.png)

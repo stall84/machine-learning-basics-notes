@@ -37,7 +37,7 @@ $\begin{bmatrix} 120 \\
 
 - Credit to the @machinelearninglessons9276 channel on [youtube found here,](https://www.youtube.com/@machinelearninglessons9276) for the following images (and great videos).
 - In a 3-Dimensional vector space, the operation can be visualized with the following image.
-  ![vector-distance-1](./vector-distance-1.png)
+  ![vector-distance-1](./images/vector-distance-1.png)
 - And simplified further:
-  ![vector-distance-2](./vector-distance-2.png)
+  ![vector-distance-2](./images/vector-distance-2.png)
 - Eventually we solve the distance between the above as $\sqrt{.81}$ or $0.9$
