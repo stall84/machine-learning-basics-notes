@@ -1,4 +1,4 @@
-## Support Vector Regression / Machines
+## Support Vector Regression
 
 #### Linear Support Vector Regression
 
